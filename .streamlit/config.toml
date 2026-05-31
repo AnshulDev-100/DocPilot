@@ -1,0 +1,15 @@
+[server]
+maxUploadSize = 50          # Max PDF upload size in MB
+enableCORS = false
+headless = true             # Needed for deployment
+
+[theme]
+base = "dark"
+primaryColor = "#4F8BF9"
+backgroundColor = "#0E1117"
+secondaryBackgroundColor = "#1A1D27"
+textColor = "#FAFAFA"
+font = "sans serif"
+
+[browser]
+gatherUsageStats = false    # Disable telemetry
